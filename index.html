@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Heavenmoon Avatar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="tela1" class="tela ativa">
+  <h1 class="titulo">BEM-VINDO A HEAVENMOON AVATAR</h1>
+  <button id="btnComecar">Começar</button>
+</section>
+
+<section id="tela2" class="tela">
+  <h2>Coloque o nome do seu personagem</h2>
+  <div class="linha">
+    <input type="text" id="nomeInput">
+    <button id="okNome">OK</button>
+  </div>
+  <ul id="sugestoes"></ul>
+</section>
+
+<section id="tela3" class="tela">
+  <h2>Data de nascimento</h2>
+  <div class="linha">
+    <input type="number" id="dia" placeholder="DD">
+    <span>/</span>
+    <input type="number" id="mes" placeholder="MM">
+    <span>/</span>
+    <input type="number" id="ano" placeholder="AAAA">
+    <button id="okData">OK</button>
+  </div>
+  <p id="erro"></p>
+</section>
+
+<section id="tela4" class="tela">
+  <h2>Estatísticas do Personagem</h2>
+  <div id="atributos"></div>
+  <button id="continuar">Continuar</button>
+</section>
+
+<section id="tela5" class="tela final">
+  <h1>Bom jogo</h1>
+  <div class="ficha" id="ficha"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
